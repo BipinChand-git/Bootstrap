@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap: Color Utilities</title>
+</head>
+<body>
+    <div class="container my-3">
+        <div class="card-group">
+            <div class="card bg-primary bg-opacity-25">
+                <a href="#" class="link-danger">Hello</a>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto rerum ipsa est voluptates id. Libero.
+            </div>
+            <div class="card bg-dark text-light">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sit veritatis voluptas nisi optio consectetur!
+            </div>
+            <div class="card text-bg-warning ">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sit veritatis voluptas nisi optio consectetur!
+            </div>
+            <div class="card text-bg-danger">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sit veritatis voluptas nisi optio consectetur!
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-bg-success">Stack Utilities</h2>
+        <div class="hstack gap-5">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+    </div>
+
+    <!-- Border -->
+    <h2 class="text-bg-danger mx-5 my-2">Border Utilities</h2>
+    <div class="container border border-danger border-5">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur consequuntur quos labore iusto reiciendis vel ullam, nostrum corrupti molestiae saepe ducimus necessitatibus ab quaerat alias ipsam. Iure, quam perferendis.</p>
+    </div>
+
+    <div class="container my-3 border border-dark border-5 rounded-pill p-2 border-opacity-50">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum libero impedit, beatae non velit repellendus aut aspernatur amet suscipit.
+    </div>
+
+    <!-- Display Utilities -->
+    <h2 class="text-bg-primary mx-5">Display Utilities</h2>
+    <div class="container d-block d-sm-none">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <!-- Spacing Utilities -->
+    <h2 class="text-bg-warning mx-5">Spacing Utilities- Margin and Padding</h2>
+    <div class="container border border-warning border-5 ps-5">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur modi quisquam ea perferendis distinctio cumque incidunt nemo praesentium sunt nostrum quae mollitia consectetur, libero amet! Perspiciatis fuga vel aut corrupti?</p>
+    </div>
+
+    <div class="container border border-info border-5 mt-2 mt-lg-5">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quae similique soluta officiis eligendi assumenda natus reprehenderit facilis, vero tempore.</p>
+    </div>
+
+    <!-- Flexbox Utilitites -->
+    <h2 class="text-bg-info m-5">Flexbox Utilities</h2>
+    <div class="container">
+        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center justify-content-evenly">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box flex-grow-1"></div>
+            <div class="box"></div>
+
+        </div>
+    </div>
+
+
+    <style>
+        body {
+            min-height: 200vh;
+        }
+        .card {
+            width: 200px;
+        }
+        .box {
+            background-color: seagreen;
+            border: 2px outset #333;
+            min-height: 50px;
+            font-size: 2rem;
+            width: 100px;
+        }
+    </style>
+</body>
+</html>
